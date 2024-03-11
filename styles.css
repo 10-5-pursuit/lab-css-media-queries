@@ -163,3 +163,83 @@ footer a:hover {
 }
 
 /* Media queries */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .splash {
+      display: none;
+    }
+
+   main {
+    margin: 3rem auto;
+    width: 90%;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 3rem;
+   }
+
+   footer {
+    background: #040f16;
+    color: #ececec;
+    padding: 50px 15% 25px;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+   h1 {
+
+   background: #040f16;
+   border-bottom: 5px solid #de6b48;
+   color: #ececec;
+   padding: 0.5rem 15%;
+   text-align: start;
+ 
+   display: grid;
+   grid-template-columns: 100px 1fr;
+   }
+
+}
+
+@media(max-width: 767px) {
+  header {
+    background: #040f16;
+    border-bottom: 5px solid #de6b48;
+    color: #ececec;
+    padding: 0.5rem 15%;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    margin: 3rem auto;
+  
+    width: 70%;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    column-gap: 0;
+  }
+
+  footer {
+    background: #040f16;
+    color: #ececec;
+    padding: 25px;
+    text-align: center;
+    display: grid;
+     
+  }
+  footer ul {
+    list-style-type: none;
+  }
+
+  footer h4 {
+    border-bottom: none;
+  }
+
+}
+
+
