@@ -168,7 +168,7 @@ footer a:hover {
       display: none;
     }
     main{
-      width: 90;
+      width: 90%;
     }
     footer{
       display: grid;
