@@ -36,12 +36,11 @@ header {
   border-bottom: 5px solid #de6b48;
   color: #ececec;
   /* padding: 0.5rem 15%; */
-  text-align: center; 
+  text-align: center;
 
 
   display: grid;
-  grid-template-columns: reapeat(1, 1fr); */
-
+  grid-template-columns: reapeat(1, 1fr);
 }
 
 header h1 {
@@ -173,9 +172,8 @@ footer a:hover {
 @media only screen and (max-width: 600px) and (orientation: portrait) {
 
   html,
-  body footer,
-  main,
-  section,
+  body, 
+  footer,
   header {
     width: 100%;
   }
@@ -184,9 +182,8 @@ footer a:hover {
 @media only screen and (max-width: 600px) and (orientation: landscape) {
 
   html,
-  body footer,
-  main,
-  section,
+  body, 
+  footer,
   header {
     width: 100%;
   }
@@ -195,9 +192,8 @@ footer a:hover {
 @media only screen and (min-width: 601px) and (max-width: 767px) and (orientation: portrait) {
 
   html,
-  body footer,
-  main,
-  section,
+  body, 
+  footer,
   header {
     width: 100%;
   }
@@ -206,9 +202,8 @@ footer a:hover {
 @media only screen and (min-width: 601px) and (max-width: 767px) and (orientation: landscape) {
 
   html,
-  body footer,
-  main,
-  section,
+  body, 
+  footer,
   header {
     width: 100%;
   }
@@ -217,9 +212,8 @@ footer a:hover {
 @media only screen and (min-width: 768px) and (max-width: 1279px) and (orientation: portrait) {
 
   html,
-  body footer,
-  main,
-  section,
+  body, 
+  footer,
   header {
     width: 100%;
   }
@@ -228,10 +222,8 @@ footer a:hover {
 @media only screen and (min-width: 768px) and (max-width: 1279px) and (orientation: landscape) {
 
   html,
-  body footer,
-  main,
-  section,
+  body,
+  footer,
   header {
     width: 100%;
   }
-}
